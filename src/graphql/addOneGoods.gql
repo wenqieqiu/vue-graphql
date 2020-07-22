@@ -1,0 +1,9 @@
+mutation addOneGoods($goods: GoodsInsertTypeGraphql!) {
+  addOneGoods(goods: $goods) {
+    id
+    name
+    price
+    count
+    remark
+  }
+}

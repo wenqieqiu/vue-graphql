@@ -1,0 +1,9 @@
+mutation updateGoods($goods: GoodsInputTypeGraphql!) {
+  updateGoods(goods: $goods) {
+    id
+    name
+    price
+    count
+    remark
+  }
+}

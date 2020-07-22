@@ -1,0 +1,9 @@
+query getAllGoods {
+  getAllGoods {
+    id
+    name
+    price
+    count
+    remark
+  }
+}
